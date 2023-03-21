@@ -1,27 +1,46 @@
 import styled from 'styled-components'
 
 export const RepositorioContainer = styled.div`
-    max-width: 100%;
     display: inline-block;
-    border: 1px solid black;
-    padding: 15px 0;
-    outline: none;
-    text-align: center;
-    justify-content: center;
     align-items: center;
+    max-width: 100%;
     margin: 20px;
     padding: 30px;
-    background-color: #b7b7b799;
+    background-color: #b7b7b7;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     
 
     img {
-        height: 25vh;
-        border-radius: 80px;
-    }
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 20px;
+    display: flex;
+}
 
-    a {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 5px;
+h2 {
+    text-align: center;
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+    &:hover {
+        background-color: #333;
+        color: #fff;
     }
     `
