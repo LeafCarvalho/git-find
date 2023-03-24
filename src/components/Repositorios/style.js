@@ -10,6 +10,8 @@ export const RepositorioContainer = styled.div`
     border: none;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #f1f1f1, #e3e3e3, #d6d6d6, #c8c8c8, #bbbbbb, #adadad, #a0a0a0, #929292, #858585, #777777, #6a6a6a, #5c5c5c);
+
     
 
     img {
