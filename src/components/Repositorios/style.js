@@ -50,4 +50,5 @@ a {
         background-color: #333;
         color: #fff;
     }
+}
     `
