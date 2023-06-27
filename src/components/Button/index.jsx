@@ -1,13 +1,11 @@
-import React from 'react'
-
-import { ButtonContainer } from './style'
+import styles from './button.module.css';
 
 const Button = ({onClick}) => {
 
   return (
-    <ButtonContainer>
-        <button onClick={onClick}>Pesquisar Repositório</button>
-    </ButtonContainer>
+    <div className={styles.container}>
+        <button onClick={onClick} className={styles.button}>Pesquisar Repositório</button>
+    </div>
   )
 }
 

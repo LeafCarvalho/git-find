@@ -1,14 +1,13 @@
-import React from 'react'
 import gitLogo from '../../assets/github.png'
-import { HeaderContainer } from './style'
+import styles from './header.module.css'
 
 function Header() {
   return (
     <>
-        <HeaderContainer>
+        <div className={styles.header}>
             <img src={gitLogo} width="7%" alt="Imagem do Github" />
             <h1>Github</h1>
-        </HeaderContainer>
+        </div>
     </>
   )
 }

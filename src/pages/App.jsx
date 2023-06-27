@@ -1,4 +1,5 @@
 import { useState } from "react";
+import '../reset.css';
 import Header from "../components/Header";
 import Input from "../components/Input";
 import api from '../services/api'

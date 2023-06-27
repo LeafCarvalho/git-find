@@ -1,12 +1,10 @@
-import React from 'react'
-
-import { InputContainer } from './style'
+import styles from './input.module.css'
 
 const Input = ({value, onChange}) => {
   return (
-    <InputContainer>
-        <input placeholder='Digite o nome e repositório' value={value || ''} onChange={onChange}/>
-    </InputContainer>
+    <div className={styles.inputcontainer}>
+          <input className={styles.input} placeholder='Digite o nome e repositório' value={value || ''} onChange={onChange}/>
+    </div>
   )
 }
 
