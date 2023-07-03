@@ -1,13 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
+// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: "/git-find",
-  esbuild: {
-    jsxInject: `import React from 'react'`,
-  },
-  optimizeDeps: {
-    include: ['react', 'react-dom'],
-  },
+  plugins: [
+    react()
+  ],
+  base: '/git-find/'
 })
